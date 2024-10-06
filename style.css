@@ -1,0 +1,27 @@
+/* Ensures equal column widths */
+#coins-table {
+    width: 100%; /* Full width of the container */
+    table-layout: fixed; /* Forces equal-width columns */
+    border-collapse: collapse; /* Removes spacing between table cells */
+  }
+  
+  #coins-table th, #coins-table td {
+    padding: 10px; /* Adds padding inside cells for better spacing */
+    text-align: center; /* Centers the text */
+    border: 1px solid #ddd; /* Adds a border to cells */
+  }
+  
+  #coins-table th {
+    background-color: #f4f4f4; /* Light background for headers */
+    font-weight: bold;
+  }
+  
+  #coins-table td img {
+    max-width: 30px; /* Controls the image size */
+  }
+   body{
+    background-color: black;
+    color : white
+   }
+    
+   
